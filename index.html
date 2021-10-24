@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progate</title>
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <style>
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+body{
+  background: #f5f5f5;
+}
+
+header{
+  text-align: center;
+  padding: 20px 0;
+}
+
+.header-tag{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.header-tag li{
+  padding: 0 25px;
+}
+
+.main-top{
+  background-image: url("img/media__firstview.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  color: white;
+}
+
+.top-phara{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,25%);
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+  font-size: 60px;
+  width: 80%;
+}
+
+.list{
+  margin: 70px auto ;
+  width: 90%;
+}
+
+.flex-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.es1{
+  font-size: 14px;
+  font-family: "Indie Flower", cursive;
+  color: #b31566;
+  padding: 10px 0;
+}
+.list h5{
+  color:#707070;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.list-contents{
+  width: 65%;
+}
+
+.contents{
+  position: relative;
+  margin-bottom: 30px;
+}
+.contents img{
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
+  height: 30vh;
+  width: 17vw;
+}
+.contents p{
+  color: white;
+  background-color:#b31566 ;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 15px 0 0 0;
+  padding: 10px 20px;
+}
+
+.contents-phara{
+  background-color: white;
+  width: 17vw;
+  padding: 17px;
+  box-sizing: border-box;
+  color: #707070;
+  border-radius:0 0 15px 15px ;
+}
+.contents-phara h4{
+  line-height: 1.7;
+}
+.contents-phara h6{
+  padding-top: 25px;
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+footer{
+  background-color: white;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+}
+footer h6{
+  color: #707070;
+  font-size: 14px;
+}
+
+.sidebar{
+  width: 30%;
+}
+
+.sidebar-top{
+  border-radius:15px ;
+}
+
+.sidebar-middle{
+  padding: 30px 20px;
+  background-color: white;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+
+.sidebar-middle img{
+  height: auto;
+  width: 100%;
+}
+
+.middle-img{
+  width: 150px;
+  height: 150px;
+  background: #b31566;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.sidebar-middle h3 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 22px;
+  color: #707070;
+}
+
+.sidebar-middle p {
+  width: 23vw;
+  line-height: 1.7;
+}
+
+.sidebar-bottom{
+  background-color: white;
+  border-radius: 15px;
+  padding: 30px 20px;
+  margin-top: 30px;
+}
+.sidebar-bottom h3{
+  color:#707070;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.category-link{
+  padding: 10px 0;
+  border-bottom: 1px solid #f5f5f5;
+  position: relative;
+}
+.category-link img{
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+}
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="#"><img src="img/estramedia__logo.png" alt=""></a>
+      <ul class="header-tag">
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">CSS</a></li>
+        <li><a href="#">JavaScript</a></li>
+        <li><a href="#">PHP</a></li>
+        <li><a href="#">MySQL</a></li>      
+      </ul>
+    </header>
+    <div class="main-top">
+      <h3 class="top-phara">Commit to the growth for everyone</h3>
+    </div>
+    <div class="list">
+      <p class="es1">New Post</p>
+      <h5>新着記事</h5>
+      <div class="flex-list">
+        <div class="list-contents">
+          <div class="flex-list">
+            <div class="contents">
+              <p>キャリア</p>
+              <img src="img/blog__first.jpg" alt="">
+              <div class="contents-phara">
+                <h4>プログラミングでフリーランスになるには？？</h4>
+                <h6>2021-02-26</h6>        
+              </div>
+            </div>
+            <div class="contents">
+              <p>MySQL</p>
+              <img src="img/career__free-2.jpg" alt="">
+              <div class="contents-phara">
+                <h4>データベースのMySQLの解説。意外と簡単</h4>
+                <h6>2021-02-26</h6>        
+              </div>
+            </div>
+            <div class="contents">
+              <p>PHP</p>
+              <img src="img/about-info__reason2.jpg" alt="">
+              <div class="contents-phara">
+                <h4>PHPとは何かを世界一わかりやすく解説。</h4>
+                <h6>2021-02-26</h6>        
+              </div>
+            </div>
+            <div class="contents">
+              <p>JavaScript</p>
+              <img src="img/about-1.jpeg" alt="">
+              <div class="contents-phara">
+                <h4>プログラミングとは何かを世界一わかりやすく解説。</h4>
+                <h6>2021-02-26</h6>        
+              </div>
+            </div>
+            <div class="contents">
+              <p>CSS</p>
+              <img src="img/elephant.png" alt="">
+              <div class="contents-phara">
+                <h4>プログラミングCSSの勉強方法を特集。HTMLも</h4>
+                <h6>2021-02-26</h6>        
+              </div>
+            </div>
+            <div class="contents">
+              <p>HTML</p>
+              <img src="img/card.jpg" alt="">
+              <div class="contents-phara">
+                <h4>プログラミング学習の勉強方法を特集。挫折しない秘訣とは？</h4>
+                <h6>2021-02-26</h6>        
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sidebar">
+          <div class="sidebar-top">
+            <img src="img/banner.png" alt="">
+          </div>
+          <div class="sidebar-middle">
+            <div class="middle-img">
+              <img src="img/estramedia__logo.png" alt="">              
+            </div>
+            <h3>エストラ編集部</h3>
+            <p>プロフィール文が入ります。プロフィール文が入ります。プロフィール文が入ります。プロフィール文が入ります。プロフィール文が入ります。</p>
+          </div>
+          <div class="sidebar-bottom">
+            <h3>Category</h3>
+            <div class="category-link">
+              <a href="#">HTML</a>
+              <a href="#"><img src="img/ax6ug-s8911.jpg" alt=""></a>
+            </div>
+            <div class="category-link">
+              <a href="#">CSS</a>
+              <a href="#"><img src="img/ax6ug-s8911.jpg" alt=""></a>
+            </div>
+            <div class="category-link">
+              <a href="#">JavaScript</a>
+              <a href="#"><img src="img/ax6ug-s8911.jpg" alt=""></a>
+            </div>
+            <div class="category-link">
+              <a href="#">PHP</a>
+              <a href="#"><img src="img/ax6ug-s8911.jpg" alt=""></a>
+            </div>
+            <div class="category-link">
+              <a href="#">MySQL</a>
+              <a href="#"><img src="img/ax6ug-s8911.jpg" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <h6>Copyright © 2021 coachtechサンプルテスト All Rights Reserved.</h6>
+    </footer>
+  </body> 
+</html>
+
+
+
+
+
+
+
+
+<div class="contents">
+  <p>MySQL</p>
+  <img src="<?php echo get_template_directory_uri(); ?>/img/career__free-2.jpg">
+  <div class="contents-phara">
+    <h4>データベースのMySQLの解説。意外と簡単</h4>
+    <h6>2021-02-26</h6>        
+  </div>
+</div>
+<div class="contents">
+  <p>PHP</p>
+  <img src="<?php echo get_template_directory_uri(); ?>/img/about-info__reason2.jpg">
+  <div class="contents-phara">
+    <h4>PHPとは何かを世界一わかりやすく解説。</h4>
+    <h6>2021-02-26</h6>        
+  </div>
+</div>
+<div class="contents">
+  <p>JavaScript</p>
+  <img src="<?php echo get_template_directory_uri(); ?>/img/about-1.jpeg">
+  <div class="contents-phara">
+    <h4>プログラミングとは何かを世界一わかりやすく解説。</h4>
+    <h6>2021-02-26</h6>        
+  </div>
+</div>
+<div class="contents">
+  <p>CSS</p>
+  <img src="<?php echo get_template_directory_uri(); ?>/img/elephant.png">
+  <div class="contents-phara">
+    <h4>プログラミングCSSの勉強方法を特集。HTMLも</h4>
+    <h6>2021-02-26</h6>        
+  </div>
+</div>
+<div class="contents">
+  <p>HTML</p>
+  <img src="<?php echo get_template_directory_uri(); ?>/img/card.jpg">
+  <div class="contents-phara">
+    <h4>プログラミング学習の勉強方法を特集。挫折しない秘訣とは？</h4>
+    <h6>2021-02-26</h6>        
+  </div>
+</div>
